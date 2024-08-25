@@ -94,3 +94,25 @@ p{
 			margin: 4em 0 2em 0;
 			border-bottom: solid 0.5px #2e2e2e;
 		}
+
+		footer {
+			border-top: 1px solid #ddd;
+			padding-top: 20px;
+		}
+		
+		footer .btn {
+			padding: 10px 20px;
+			font-size: 1rem;
+		}
+		
+		footer .btn-primary {
+			background-color: #ffffff;
+			border-color: #494949;
+			color: #1f1815;
+		}
+		
+		footer .btn-secondary {
+			background-color: #ffffff;
+			border-color: #494949;
+			color: #1f1815;
+		}

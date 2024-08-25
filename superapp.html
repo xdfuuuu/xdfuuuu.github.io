@@ -7,7 +7,7 @@
     <title>Portfolio Project</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/content.css" rel="stylesheet">
+    <link href="assets\css\content.css" rel="stylesheet">
 
     
 </head>
@@ -17,7 +17,7 @@
     <div class="container">
 
         <!-- Section 1: Header -->
-        <section class="text-center mt-5 mb-5">
+        <section class="text-center mt-5 mb-5" id="intro">
             <h1>Home Design & Reno Super-App</h1>
             <p>All-in-one app for all things related to home design & renovation</p>
             <div id="line"></div>
@@ -247,12 +247,34 @@
             <p>To save time, many user tests were done internally, that is, with team members, and some may not fall within the app’s target users. While we could get feedback on the general user behaviour and fix glaring issues, if I were given another chance to start from scratch, I would request to spend some money and more time to get proper target users to give the app a try.</p>
         </section>
 
+    
+
+<footer class="mt-5 mb-5">
+    <div class="row">
+        <!-- Back to Top Button -->
+        <div class="col-md-6 text-left">
+            <a href="#intro" class="btn btn-secondary">Back to Top</a>
+        </div>
+
+        <!-- Next Project Button -->
+        <div class="col-md-6 text-right">
+            <a href="next-project.html" class="btn btn-primary">Next Project</a>
+        </div>
     </div>
+</footer>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    document.querySelector('a[href="#intro"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+</script>
+
+</div>
+ <!-- Bootstrap JS and dependencies -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
-
 </html>
