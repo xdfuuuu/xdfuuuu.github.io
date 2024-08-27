@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+body{
+	background-color: rgb(246, 246, 246);
+}
+
 h1, h2, h3 {
 	font-family: "Playfair Display", serif;
 	font-weight: 700;
@@ -18,7 +22,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	line-height: 1.5em;
 }
 
@@ -26,7 +30,8 @@ h4 {
 	font-size: 1.1em;
 	line-height: 1.5em;
 	font-family: "Noto Sans", serif;
-	color: #1f1815
+	color: #1f1815;
+	margin: 0;
 }
 
 p{
@@ -48,9 +53,20 @@ p{
             text-align: left;
         }
 
+		.mb-4 {
+			margin-bottom: 2rem;
+        
+		}
+
         .mb-5 {
             margin-bottom: 3rem;
         }
+
+		.m5-4 {
+			margin-bottom: 2rem;
+        
+		}
+
 
         .mt-5 {
             margin-top: 3rem;
@@ -84,10 +100,23 @@ p{
 			max-height:  2em;
 		}
 
+		.img-fluid.icon2x{
+			height:  2.4em;
+		}
+
 		.badge{
 			background-color: #3ACDD7;
 			font-size: 1em;
 			font-family: "Noto Sans", serif;
+		}
+
+		.flag{
+			width: 100%;
+			padding: 0.4em 1em;
+			background-color:rgb(20, 121, 255);
+			text-align: center;
+			color: #fff;
+			font-weight: 700;
 		}
 
 		#line{
