@@ -286,6 +286,7 @@ input, select, textarea {
 	align-items: center;
 	padding: 1em;
 	column-gap: 1em;
+	width: 50em;
 
 }
 
@@ -300,7 +301,7 @@ input, select, textarea {
 }
 
 .project > img {
-	max-width: 70%;
+	max-width: 20em;
 }
 
 

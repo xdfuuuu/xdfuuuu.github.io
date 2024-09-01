@@ -40,6 +40,47 @@ p{
 	font-size: 0.9em;
 }
 
+#navbar{
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border-bottom: 0.5px solid #1f1815;
+	z-index: 1000;
+	}
+   
+   #navbar > ul{
+	 height: 2em;
+	 list-style-type: none;
+	 font-size: 1.2em;
+	 font-family: "Playfair Display", serif;
+	 display: flex;
+	 justify-content: flex-end;
+	 align-items: center;
+	 margin: 0.5em 1.2em;
+	 }
+   
+   #navbar > ul > li{
+	 padding: 0rem 1.2rem;
+	 display: block;
+	 }
+   
+   #navbar a{
+	 text-decoration: none;
+	
+	 color: rgba(20,20,20,100%);
+   }
+   
+   #navbar a:hover{
+	 color: rgba(50,50,50,70%);
+	 border-radius: 7px;
+	 background-color: rgba(10,10,10,10%);
+   }
+
+   .container{
+	padding-top: 2em;
+   }
+
 
         .full-width-section {
             width: 100%;
