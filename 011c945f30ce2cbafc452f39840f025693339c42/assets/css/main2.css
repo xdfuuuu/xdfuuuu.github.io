@@ -254,8 +254,11 @@ footer .icons {
 	margin: 0;
 }
 
-#footer  div.col-md-3 > p{
+#footer  div.col-md-4 > p{
 	text-align: right;
+	margin: 0.5em 1.2em;
+	
+
 }
 
 footer .icons li {
