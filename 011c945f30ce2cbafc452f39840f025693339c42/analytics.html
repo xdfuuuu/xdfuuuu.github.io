@@ -275,7 +275,7 @@
         
         <!-- Section 10: Initial tests -->
         <section class="mt-5 mb-6">
-            
+            <div class="align-items-center">
                     <h2>Initial tests and iterations</h2>
                     
                     <p>To ensure rapid development, the Analytics page was to be rolled out in phases/sprints, with phase 1 delivering an MVP focused on technicians - our primary user group. Initial user tests were then carried out these users.</p>
@@ -287,22 +287,24 @@
                     </div>
                     <div class="col-md-6 text-left">
                         <h4>Search Bar</h4>
-                        <p class="mb-5">Feedback from users revealed a need for a search bar. Technicians typically look for robots via the robot ID or its company. As such, a search bar was added to allow quick narrowing down of data to the ones of interest.
+                        <p class="mb-4">Feedback from users revealed a need for a search bar. Technicians typically look for robots via the robot ID or its company. As such, a search bar was added to allow quick narrowing down of data to the ones of interest.
                         </p>
                         <h4>Date ranges</h4>
                         <p>Date range selectors were also added to cards to allow viewing of data from specific time period</p>
                     </div>
-                    <div class="row align-items-center mt-5">
-                        <div class="col-md-6 text-center">
+                </div>
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-6 text-center">
                             <img src="images\Analytics\filter drawer.png" alt="filter drawer" class="img-fluid mb-3">
-                        </div>
-                        <div class="col-md-6 text-left">
+                    </div>
+                    <div class="col-md-6 text-left">
                             <h4>Filters</h4>
                             <p>Subsequent tests shown that having just 1 search bar is insufficient as it can only query one item at a time. Users also wanted to drill down the data via other filter categories like company, worksites and robot type.
                             </p>
                             <p>As such, filters in the form of side drawers were added. The date range selectors in the cards were also tucked into the drawer to declutter the page.</p>
-                        </div>
-                        <div class="row align-items-center mt-5">
+                    </div>
+                </div>
+                    <div class="row align-items-center mt-5">
                             <div class="col-md-6 text-center">
                                 <img src="images\Analytics\more details.png" alt="More details" class="img-fluid mb-3">
                             </div>
@@ -311,7 +313,9 @@
                                 <p>Based on user feedback seeking more granular information, the analytics dashboard was enhanced with a side drawer displaying mission details for each robot, including metrics like coverage area and duration. 
                                 </p>
                             </div>
-                </div>  
+                        </div>   
+                    </div>   
+                
 
 
 
@@ -319,7 +323,7 @@
 
             <!-- Section 11: Design review -->
             <section class="mt-5 mb-6">
-                <div class="row align-items-center">
+                <div class="align-items-center">
                     
                         <h2>Design Reviews and more iterations</h2>
                         
@@ -341,20 +345,21 @@
                         </div>  
                         <p>Rather than highlighting error counts, we refocused on performance targets - a metric that would be useful across all user groups. This shift allows users to track robots against their defined cleaning goals, such as area cleaned or cleaning hours.</p>
                         <p>Other key indicators were also swapped with data that was existing in the system, enabling faster MVP development without compromising user needs.</p>
-                    </div></div>
-                    <div class="row align-items-center mt-5">
+                    </div>
+                
+                    <div class="align-items-center mt-5">
                         <div class="col mt-5">
                             <h4 class="text-center"><strong>Filter interaction</strong></h4>
                             <p>User testing further revealed usability issues with the side drawer filters. Users often apply filters iteratively to narrow down their search, making the drawer mechanism cumbersome for exploratory filtering.</p>
                             
                             <div class="row align-items-center mt-4">
                                 
-                                <div class="col-md-6 ">
+                                <div class="col-md-6 mb-4 ">
                                     <img src="images\Analytics\filters old.gif" alt="Inefficient filters" class="img-fluid mb-3">
                                     <h4 class="text-center">Side drawer filters - High interaction cost</h4>
                                     <p>Increased number of clicks to obtain a desired result as the filters are not instant or dynamic.</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-4">
                                     
                                     <img src="images\Analytics\filters good.gif" alt="Dynamic filters" class="img-fluid mb-3">
                                     <h4 class="text-center">UX improvement: Dynamic Filters</h4>
@@ -365,19 +370,19 @@
                         </div>
                     </div>
                     
-                    <div class="row align-items-center mt-5">
+                    <div class="align-items-center mt-5">
                         <div class="col mt-5">
                             <h4 class="text-center"><strong>Scrolling interaction</strong></h4>
                             <p>Usability issues with scrolling within the filters were also identified. Long lists in each filter category led to internal scrolling within each category, causing a double-scrolling effect that negatively impacted the filter experience.</p>
                             
                             <div class="row align-items-center mt-4">
                                 
-                                <div class="col-md-6 ">
+                                <div class="col-md-6 mb-4">
                                     <img src="images\Analytics\scroll bad.gif" alt="Double-scrolling" class="img-fluid mb-3">
                                     <h4 class="text-center">Scroll within scroll</h4>
                                     <p>To be able to scroll through the list of filters, users need to know how to position their mouse such that they can scroll the main list of filters instead of within each filter category.</p>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-4">
                                     
                                     <img src="images\Analytics\view more.gif" alt="View all page" class="img-fluid mb-3">
                                     <h4 class="text-center">UX improvement: Dynamic Filters</h4>
@@ -387,14 +392,14 @@
                         
                         </div>
                     </div>
-
+                </div>
                 </section>
            
         <!-- Section 12: MVP -->
         <section class="mt-5 mb-6">
             <h2 class="section-title">MVP</h2>
             <p>To further reduce development time, the design had to be further phased out. Graphs and charts which were deemed as lower priority, were to be shifted to future development sprints. In return, the dynamic filter interaction was kept.</p>
-            <img src="images\Analytics\hifi.png" alt="MVP" class="img-fluid mb-3">
+            <img src="images\Analytics\Hifi.png" alt="MVP" class="img-fluid mb-3">
         </section>
 
         <!-- Section 13: impact -->
